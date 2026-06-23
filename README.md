@@ -1,6 +1,6 @@
 # HIVETIRE — Backend Challenge
 
-En este challenge buscamos evaluar tu capacidad para construir APIs sobre una base de código en Django/Python.
+En este desafio buscamos evaluar tu capacidad para construir APIs sobre una base de código en Django/Python.
 
 Debes trabajar sobre los modelos existentes en `core/models.py` y debes desarrollar los endpoints en la app `api/`.
 
