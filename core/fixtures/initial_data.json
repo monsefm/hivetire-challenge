@@ -1,0 +1,1624 @@
+[
+  {
+    "model": "core.vehicle",
+    "pk": 1,
+    "fields": {
+      "active": true,
+      "plate": "BCDF-12",
+      "brand": "Toyota",
+      "type": "Camion",
+      "fleet": "Norte"
+    }
+  },
+  {
+    "model": "core.vehicle",
+    "pk": 2,
+    "fields": {
+      "active": true,
+      "plate": "GHKL-34",
+      "brand": "Ford",
+      "type": "Van",
+      "fleet": "Norte"
+    }
+  },
+  {
+    "model": "core.vehicle",
+    "pk": 3,
+    "fields": {
+      "active": false,
+      "plate": "MNPQ-56",
+      "brand": "Chevrolet",
+      "type": "Pickup",
+      "fleet": "Norte"
+    }
+  },
+  {
+    "model": "core.vehicle",
+    "pk": 4,
+    "fields": {
+      "active": true,
+      "plate": "RSTU-78",
+      "brand": "Mercedes-Benz",
+      "type": "Camion",
+      "fleet": "Norte"
+    }
+  },
+  {
+    "model": "core.vehicle",
+    "pk": 5,
+    "fields": {
+      "active": true,
+      "plate": "VWXY-90",
+      "brand": "Volvo",
+      "type": "Camion",
+      "fleet": "Sur"
+    }
+  },
+  {
+    "model": "core.vehicle",
+    "pk": 6,
+    "fields": {
+      "active": true,
+      "plate": "ABCD-11",
+      "brand": "Toyota",
+      "type": "Furgon",
+      "fleet": "Sur"
+    }
+  },
+  {
+    "model": "core.vehicle",
+    "pk": 7,
+    "fields": {
+      "active": false,
+      "plate": "EFGH-22",
+      "brand": "Ford",
+      "type": "Pickup",
+      "fleet": "Sur"
+    }
+  },
+  {
+    "model": "core.vehicle",
+    "pk": 8,
+    "fields": {
+      "active": true,
+      "plate": "IJKL-33",
+      "brand": "Hyundai",
+      "type": "Van",
+      "fleet": "Sur"
+    }
+  },
+  {
+    "model": "core.vehicle",
+    "pk": 9,
+    "fields": {
+      "active": true,
+      "plate": "MNOP-44",
+      "brand": "Nissan",
+      "type": "Camion",
+      "fleet": "Centro"
+    }
+  },
+  {
+    "model": "core.vehicle",
+    "pk": 10,
+    "fields": {
+      "active": true,
+      "plate": "QRST-55",
+      "brand": "Kia",
+      "type": "Furgon",
+      "fleet": "Centro"
+    }
+  },
+  {
+    "model": "core.vehicle",
+    "pk": 11,
+    "fields": {
+      "active": true,
+      "plate": "UVWX-66",
+      "brand": "Chevrolet",
+      "type": "Van",
+      "fleet": "Centro"
+    }
+  },
+  {
+    "model": "core.vehicle",
+    "pk": 12,
+    "fields": {
+      "active": false,
+      "plate": "YZAB-77",
+      "brand": "Mercedes-Benz",
+      "type": "Pickup",
+      "fleet": "Centro"
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 1,
+    "fields": {
+      "vehicle": 1,
+      "date": "2023-01-16T00:00:00Z",
+      "odometer": 46256,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 2,
+    "fields": {
+      "vehicle": 1,
+      "date": "2023-04-01T00:00:00Z",
+      "odometer": 50093,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 3,
+    "fields": {
+      "vehicle": 1,
+      "date": "2023-06-10T00:00:00Z",
+      "odometer": 51896,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 4,
+    "fields": {
+      "vehicle": 1,
+      "date": "2023-08-18T00:00:00Z",
+      "odometer": 53267,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 5,
+    "fields": {
+      "vehicle": 1,
+      "date": "2023-11-04T00:00:00Z",
+      "odometer": 56838,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 6,
+    "fields": {
+      "vehicle": 1,
+      "date": "2024-01-15T00:00:00Z",
+      "odometer": 57994,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 7,
+    "fields": {
+      "vehicle": 1,
+      "date": "2024-03-17T00:00:00Z",
+      "odometer": 60522,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 8,
+    "fields": {
+      "vehicle": 1,
+      "date": "2024-05-28T00:00:00Z",
+      "odometer": 61444,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 9,
+    "fields": {
+      "vehicle": 1,
+      "date": "2024-08-09T00:00:00Z",
+      "odometer": 63139,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 10,
+    "fields": {
+      "vehicle": 1,
+      "date": "2024-10-25T00:00:00Z",
+      "odometer": 66008,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 11,
+    "fields": {
+      "vehicle": 1,
+      "date": "2025-01-03T00:00:00Z",
+      "odometer": 66916,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 12,
+    "fields": {
+      "vehicle": 1,
+      "date": "2025-03-17T00:00:00Z",
+      "odometer": 68530,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 13,
+    "fields": {
+      "vehicle": 1,
+      "date": "2025-05-25T00:00:00Z",
+      "odometer": 72202,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 14,
+    "fields": {
+      "vehicle": 1,
+      "date": "2025-07-30T00:00:00Z",
+      "odometer": 74720,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 15,
+    "fields": {
+      "vehicle": 1,
+      "date": "2025-10-15T00:00:00Z",
+      "odometer": 77359,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 16,
+    "fields": {
+      "vehicle": 2,
+      "date": "2023-01-04T00:00:00Z",
+      "odometer": 36115,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 17,
+    "fields": {
+      "vehicle": 2,
+      "date": "2023-04-22T00:00:00Z",
+      "odometer": 40023,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 18,
+    "fields": {
+      "vehicle": 2,
+      "date": "2023-08-10T00:00:00Z",
+      "odometer": 43682,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 19,
+    "fields": {
+      "vehicle": 2,
+      "date": "2023-11-22T00:00:00Z",
+      "odometer": 45875,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 20,
+    "fields": {
+      "vehicle": 2,
+      "date": "2024-03-06T00:00:00Z",
+      "odometer": 47311,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 21,
+    "fields": {
+      "vehicle": 2,
+      "date": "2024-06-22T00:00:00Z",
+      "odometer": 51238,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 22,
+    "fields": {
+      "vehicle": 2,
+      "date": "2024-10-02T00:00:00Z",
+      "odometer": 52456,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 23,
+    "fields": {
+      "vehicle": 2,
+      "date": "2025-01-16T00:00:00Z",
+      "odometer": 54812,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 24,
+    "fields": {
+      "vehicle": 2,
+      "date": "2025-05-06T00:00:00Z",
+      "odometer": 57082,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 25,
+    "fields": {
+      "vehicle": 2,
+      "date": "2025-08-19T00:00:00Z",
+      "odometer": 60354,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 26,
+    "fields": {
+      "vehicle": 3,
+      "date": "2023-01-28T00:00:00Z",
+      "odometer": 91977,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 27,
+    "fields": {
+      "vehicle": 3,
+      "date": "2023-06-04T00:00:00Z",
+      "odometer": 94973,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 28,
+    "fields": {
+      "vehicle": 3,
+      "date": "2023-10-15T00:00:00Z",
+      "odometer": 97323,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 29,
+    "fields": {
+      "vehicle": 3,
+      "date": "2024-02-28T00:00:00Z",
+      "odometer": 100384,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 30,
+    "fields": {
+      "vehicle": 3,
+      "date": "2024-07-16T00:00:00Z",
+      "odometer": 104581,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 31,
+    "fields": {
+      "vehicle": 3,
+      "date": "2024-11-21T00:00:00Z",
+      "odometer": 107914,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 32,
+    "fields": {
+      "vehicle": 3,
+      "date": "2025-04-01T00:00:00Z",
+      "odometer": 111078,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 33,
+    "fields": {
+      "vehicle": 3,
+      "date": "2025-08-10T00:00:00Z",
+      "odometer": 114763,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 34,
+    "fields": {
+      "vehicle": 4,
+      "date": "2022-12-31T00:00:00Z",
+      "odometer": 121508,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 35,
+    "fields": {
+      "vehicle": 4,
+      "date": "2023-02-23T00:00:00Z",
+      "odometer": 125474,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 36,
+    "fields": {
+      "vehicle": 4,
+      "date": "2023-04-16T00:00:00Z",
+      "odometer": 126600,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 37,
+    "fields": {
+      "vehicle": 4,
+      "date": "2023-06-06T00:00:00Z",
+      "odometer": 130949,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 38,
+    "fields": {
+      "vehicle": 4,
+      "date": "2023-08-01T00:00:00Z",
+      "odometer": 133305,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 39,
+    "fields": {
+      "vehicle": 4,
+      "date": "2023-09-29T00:00:00Z",
+      "odometer": 135962,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 40,
+    "fields": {
+      "vehicle": 4,
+      "date": "2023-11-16T00:00:00Z",
+      "odometer": 140178,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 41,
+    "fields": {
+      "vehicle": 4,
+      "date": "2024-01-08T00:00:00Z",
+      "odometer": 141644,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 42,
+    "fields": {
+      "vehicle": 4,
+      "date": "2024-02-28T00:00:00Z",
+      "odometer": 143899,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 43,
+    "fields": {
+      "vehicle": 4,
+      "date": "2024-04-22T00:00:00Z",
+      "odometer": 147444,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 44,
+    "fields": {
+      "vehicle": 4,
+      "date": "2024-06-20T00:00:00Z",
+      "odometer": 151118,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 45,
+    "fields": {
+      "vehicle": 4,
+      "date": "2024-08-03T00:00:00Z",
+      "odometer": 154572,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 46,
+    "fields": {
+      "vehicle": 4,
+      "date": "2024-10-04T00:00:00Z",
+      "odometer": 157867,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 47,
+    "fields": {
+      "vehicle": 4,
+      "date": "2024-11-24T00:00:00Z",
+      "odometer": 159367,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 48,
+    "fields": {
+      "vehicle": 4,
+      "date": "2025-01-11T00:00:00Z",
+      "odometer": 163153,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 49,
+    "fields": {
+      "vehicle": 4,
+      "date": "2025-03-09T00:00:00Z",
+      "odometer": 164622,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 50,
+    "fields": {
+      "vehicle": 4,
+      "date": "2025-04-28T00:00:00Z",
+      "odometer": 166976,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 51,
+    "fields": {
+      "vehicle": 4,
+      "date": "2025-06-24T00:00:00Z",
+      "odometer": 170397,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 52,
+    "fields": {
+      "vehicle": 4,
+      "date": "2025-08-18T00:00:00Z",
+      "odometer": 172096,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 53,
+    "fields": {
+      "vehicle": 4,
+      "date": "2025-09-30T00:00:00Z",
+      "odometer": 174224,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 54,
+    "fields": {
+      "vehicle": 5,
+      "date": "2023-01-03T00:00:00Z",
+      "odometer": 80166,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 55,
+    "fields": {
+      "vehicle": 5,
+      "date": "2023-04-06T00:00:00Z",
+      "odometer": 84263,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 56,
+    "fields": {
+      "vehicle": 5,
+      "date": "2023-07-02T00:00:00Z",
+      "odometer": 86706,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 57,
+    "fields": {
+      "vehicle": 5,
+      "date": "2023-09-27T00:00:00Z",
+      "odometer": 87777,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 58,
+    "fields": {
+      "vehicle": 5,
+      "date": "2023-12-26T00:00:00Z",
+      "odometer": 90900,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 59,
+    "fields": {
+      "vehicle": 5,
+      "date": "2024-03-28T00:00:00Z",
+      "odometer": 92570,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 60,
+    "fields": {
+      "vehicle": 5,
+      "date": "2024-06-20T00:00:00Z",
+      "odometer": 95414,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 61,
+    "fields": {
+      "vehicle": 5,
+      "date": "2024-09-20T00:00:00Z",
+      "odometer": 99837,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 62,
+    "fields": {
+      "vehicle": 5,
+      "date": "2024-12-09T00:00:00Z",
+      "odometer": 102516,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 63,
+    "fields": {
+      "vehicle": 5,
+      "date": "2025-03-07T00:00:00Z",
+      "odometer": 104400,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 64,
+    "fields": {
+      "vehicle": 5,
+      "date": "2025-06-09T00:00:00Z",
+      "odometer": 106210,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 65,
+    "fields": {
+      "vehicle": 5,
+      "date": "2025-09-01T00:00:00Z",
+      "odometer": 109217,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 66,
+    "fields": {
+      "vehicle": 6,
+      "date": "2023-01-25T00:00:00Z",
+      "odometer": 31194,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 67,
+    "fields": {
+      "vehicle": 6,
+      "date": "2023-06-29T00:00:00Z",
+      "odometer": 35671,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 68,
+    "fields": {
+      "vehicle": 6,
+      "date": "2023-11-24T00:00:00Z",
+      "odometer": 38106,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 69,
+    "fields": {
+      "vehicle": 6,
+      "date": "2024-04-21T00:00:00Z",
+      "odometer": 39804,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 70,
+    "fields": {
+      "vehicle": 6,
+      "date": "2024-09-25T00:00:00Z",
+      "odometer": 42691,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 71,
+    "fields": {
+      "vehicle": 6,
+      "date": "2025-02-17T00:00:00Z",
+      "odometer": 43863,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 72,
+    "fields": {
+      "vehicle": 6,
+      "date": "2025-07-20T00:00:00Z",
+      "odometer": 48190,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 73,
+    "fields": {
+      "vehicle": 7,
+      "date": "2023-01-02T00:00:00Z",
+      "odometer": 146370,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 74,
+    "fields": {
+      "vehicle": 7,
+      "date": "2023-08-11T00:00:00Z",
+      "odometer": 150414,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 75,
+    "fields": {
+      "vehicle": 7,
+      "date": "2024-03-10T00:00:00Z",
+      "odometer": 152943,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 76,
+    "fields": {
+      "vehicle": 7,
+      "date": "2024-10-06T00:00:00Z",
+      "odometer": 154003,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 77,
+    "fields": {
+      "vehicle": 7,
+      "date": "2025-05-10T00:00:00Z",
+      "odometer": 156366,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 78,
+    "fields": {
+      "vehicle": 8,
+      "date": "2023-01-14T00:00:00Z",
+      "odometer": 57967,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 79,
+    "fields": {
+      "vehicle": 8,
+      "date": "2023-03-10T00:00:00Z",
+      "odometer": 61033,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 80,
+    "fields": {
+      "vehicle": 8,
+      "date": "2023-05-09T00:00:00Z",
+      "odometer": 64619,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 81,
+    "fields": {
+      "vehicle": 8,
+      "date": "2023-07-14T00:00:00Z",
+      "odometer": 68211,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 82,
+    "fields": {
+      "vehicle": 8,
+      "date": "2023-09-07T00:00:00Z",
+      "odometer": 72086,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 83,
+    "fields": {
+      "vehicle": 8,
+      "date": "2023-11-11T00:00:00Z",
+      "odometer": 76034,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 84,
+    "fields": {
+      "vehicle": 8,
+      "date": "2023-12-31T00:00:00Z",
+      "odometer": 78227,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 85,
+    "fields": {
+      "vehicle": 8,
+      "date": "2024-03-04T00:00:00Z",
+      "odometer": 80229,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 86,
+    "fields": {
+      "vehicle": 8,
+      "date": "2024-05-03T00:00:00Z",
+      "odometer": 81676,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 87,
+    "fields": {
+      "vehicle": 8,
+      "date": "2024-06-28T00:00:00Z",
+      "odometer": 82489,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 88,
+    "fields": {
+      "vehicle": 8,
+      "date": "2024-08-24T00:00:00Z",
+      "odometer": 85339,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 89,
+    "fields": {
+      "vehicle": 8,
+      "date": "2024-10-21T00:00:00Z",
+      "odometer": 88218,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 90,
+    "fields": {
+      "vehicle": 8,
+      "date": "2024-12-28T00:00:00Z",
+      "odometer": 92583,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 91,
+    "fields": {
+      "vehicle": 8,
+      "date": "2025-02-25T00:00:00Z",
+      "odometer": 94605,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 92,
+    "fields": {
+      "vehicle": 8,
+      "date": "2025-04-24T00:00:00Z",
+      "odometer": 97484,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 93,
+    "fields": {
+      "vehicle": 8,
+      "date": "2025-06-15T00:00:00Z",
+      "odometer": 99098,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 94,
+    "fields": {
+      "vehicle": 8,
+      "date": "2025-08-13T00:00:00Z",
+      "odometer": 101429,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 95,
+    "fields": {
+      "vehicle": 8,
+      "date": "2025-10-17T00:00:00Z",
+      "odometer": 104438,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 96,
+    "fields": {
+      "vehicle": 9,
+      "date": "2023-02-03T00:00:00Z",
+      "odometer": 203802,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 97,
+    "fields": {
+      "vehicle": 9,
+      "date": "2023-03-15T00:00:00Z",
+      "odometer": 205929,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 98,
+    "fields": {
+      "vehicle": 9,
+      "date": "2023-04-20T00:00:00Z",
+      "odometer": 206808,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 99,
+    "fields": {
+      "vehicle": 9,
+      "date": "2023-06-04T00:00:00Z",
+      "odometer": 209094,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 100,
+    "fields": {
+      "vehicle": 9,
+      "date": "2023-07-12T00:00:00Z",
+      "odometer": 210874,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 101,
+    "fields": {
+      "vehicle": 9,
+      "date": "2023-09-01T00:00:00Z",
+      "odometer": 212660,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 102,
+    "fields": {
+      "vehicle": 9,
+      "date": "2023-10-05T00:00:00Z",
+      "odometer": 213782,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 103,
+    "fields": {
+      "vehicle": 9,
+      "date": "2023-11-22T00:00:00Z",
+      "odometer": 217579,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 104,
+    "fields": {
+      "vehicle": 9,
+      "date": "2023-12-28T00:00:00Z",
+      "odometer": 221721,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 105,
+    "fields": {
+      "vehicle": 9,
+      "date": "2024-02-15T00:00:00Z",
+      "odometer": 225636,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 106,
+    "fields": {
+      "vehicle": 9,
+      "date": "2024-03-22T00:00:00Z",
+      "odometer": 229572,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 107,
+    "fields": {
+      "vehicle": 9,
+      "date": "2024-05-11T00:00:00Z",
+      "odometer": 230897,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 108,
+    "fields": {
+      "vehicle": 9,
+      "date": "2024-06-20T00:00:00Z",
+      "odometer": 233643,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 109,
+    "fields": {
+      "vehicle": 9,
+      "date": "2024-07-28T00:00:00Z",
+      "odometer": 235119,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 110,
+    "fields": {
+      "vehicle": 9,
+      "date": "2024-09-13T00:00:00Z",
+      "odometer": 238080,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 111,
+    "fields": {
+      "vehicle": 9,
+      "date": "2024-10-19T00:00:00Z",
+      "odometer": 240613,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 112,
+    "fields": {
+      "vehicle": 9,
+      "date": "2024-11-30T00:00:00Z",
+      "odometer": 243621,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 113,
+    "fields": {
+      "vehicle": 9,
+      "date": "2025-01-12T00:00:00Z",
+      "odometer": 247341,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 114,
+    "fields": {
+      "vehicle": 9,
+      "date": "2025-03-01T00:00:00Z",
+      "odometer": 249775,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 115,
+    "fields": {
+      "vehicle": 9,
+      "date": "2025-04-07T00:00:00Z",
+      "odometer": 253236,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 116,
+    "fields": {
+      "vehicle": 9,
+      "date": "2025-05-22T00:00:00Z",
+      "odometer": 255830,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 117,
+    "fields": {
+      "vehicle": 9,
+      "date": "2025-06-26T00:00:00Z",
+      "odometer": 258479,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 118,
+    "fields": {
+      "vehicle": 9,
+      "date": "2025-08-09T00:00:00Z",
+      "odometer": 260294,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 119,
+    "fields": {
+      "vehicle": 9,
+      "date": "2025-09-22T00:00:00Z",
+      "odometer": 261356,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 120,
+    "fields": {
+      "vehicle": 9,
+      "date": "2025-11-07T00:00:00Z",
+      "odometer": 262242,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 121,
+    "fields": {
+      "vehicle": 10,
+      "date": "2023-01-22T00:00:00Z",
+      "odometer": 42742,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 122,
+    "fields": {
+      "vehicle": 10,
+      "date": "2023-05-11T00:00:00Z",
+      "odometer": 44444,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 123,
+    "fields": {
+      "vehicle": 10,
+      "date": "2023-09-16T00:00:00Z",
+      "odometer": 45534,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 124,
+    "fields": {
+      "vehicle": 10,
+      "date": "2024-01-05T00:00:00Z",
+      "odometer": 46575,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 125,
+    "fields": {
+      "vehicle": 10,
+      "date": "2024-04-29T00:00:00Z",
+      "odometer": 47651,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 126,
+    "fields": {
+      "vehicle": 10,
+      "date": "2024-08-30T00:00:00Z",
+      "odometer": 51972,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 127,
+    "fields": {
+      "vehicle": 10,
+      "date": "2024-12-29T00:00:00Z",
+      "odometer": 53062,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 128,
+    "fields": {
+      "vehicle": 10,
+      "date": "2025-04-22T00:00:00Z",
+      "odometer": 54836,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 129,
+    "fields": {
+      "vehicle": 10,
+      "date": "2025-08-21T00:00:00Z",
+      "odometer": 58376,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 130,
+    "fields": {
+      "vehicle": 11,
+      "date": "2023-01-04T00:00:00Z",
+      "odometer": 70008,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 131,
+    "fields": {
+      "vehicle": 11,
+      "date": "2023-03-28T00:00:00Z",
+      "odometer": 73770,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 132,
+    "fields": {
+      "vehicle": 11,
+      "date": "2023-06-10T00:00:00Z",
+      "odometer": 76930,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 133,
+    "fields": {
+      "vehicle": 11,
+      "date": "2023-08-25T00:00:00Z",
+      "odometer": 78725,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 134,
+    "fields": {
+      "vehicle": 11,
+      "date": "2023-11-08T00:00:00Z",
+      "odometer": 82832,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 135,
+    "fields": {
+      "vehicle": 11,
+      "date": "2024-01-18T00:00:00Z",
+      "odometer": 84411,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 136,
+    "fields": {
+      "vehicle": 11,
+      "date": "2024-04-12T00:00:00Z",
+      "odometer": 85608,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 137,
+    "fields": {
+      "vehicle": 11,
+      "date": "2024-06-22T00:00:00Z",
+      "odometer": 88173,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 138,
+    "fields": {
+      "vehicle": 11,
+      "date": "2024-09-07T00:00:00Z",
+      "odometer": 90707,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 139,
+    "fields": {
+      "vehicle": 11,
+      "date": "2024-11-16T00:00:00Z",
+      "odometer": 93419,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 140,
+    "fields": {
+      "vehicle": 11,
+      "date": "2025-02-10T00:00:00Z",
+      "odometer": 96977,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 141,
+    "fields": {
+      "vehicle": 11,
+      "date": "2025-04-18T00:00:00Z",
+      "odometer": 100423,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 142,
+    "fields": {
+      "vehicle": 11,
+      "date": "2025-07-08T00:00:00Z",
+      "odometer": 101471,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 143,
+    "fields": {
+      "vehicle": 11,
+      "date": "2025-09-21T00:00:00Z",
+      "odometer": 105253,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 144,
+    "fields": {
+      "vehicle": 12,
+      "date": "2023-01-22T00:00:00Z",
+      "odometer": 162329,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 145,
+    "fields": {
+      "vehicle": 12,
+      "date": "2023-07-20T00:00:00Z",
+      "odometer": 164147,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 146,
+    "fields": {
+      "vehicle": 12,
+      "date": "2024-01-18T00:00:00Z",
+      "odometer": 165726,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 147,
+    "fields": {
+      "vehicle": 12,
+      "date": "2024-07-07T00:00:00Z",
+      "odometer": 168363,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 148,
+    "fields": {
+      "vehicle": 12,
+      "date": "2024-12-31T00:00:00Z",
+      "odometer": 170891,
+      "status": 2
+    }
+  },
+  {
+    "model": "core.vehicleinspection",
+    "pk": 149,
+    "fields": {
+      "vehicle": 12,
+      "date": "2025-07-01T00:00:00Z",
+      "odometer": 172831,
+      "status": 2
+    }
+  }
+]
