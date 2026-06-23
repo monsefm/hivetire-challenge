@@ -87,13 +87,7 @@ Los siguientes endpoints deben ser implementados utilizando los modelos existent
 
 #### `GET /api/vehicles/`
 
-Lista paginada de vehículos.
-
-| Parámetro   | Tipo   | Descripción                               |
-|-------------|--------|-------------------------------------------|
-| `status`    | string | Filtra por estado del vehículo            |
-| `type`      | string | Filtra por tipo de vehículo               |
-| `search`    | string | Búsqueda por placa (`plate`)              |
+Lista paginada de vehículos. Implementa los filtros y opciones de ordenamiento que consideres útiles para un sistema de gestión de flota.
 
 Cada elemento de la lista debe tener la siguiente estructura:
 
@@ -110,23 +104,18 @@ Cada elemento de la lista debe tener la siguiente estructura:
 
 #### `GET /api/inspections/`
 
-Lista paginada de inspecciones.
-
-| Parámetro    | Tipo   | Descripción                                      |
-|--------------|--------|--------------------------------------------------|
-| `status`     | int    | Filtra por estado (1 = En Curso, 2 = Finalizada) |
-| `date_start` | date   | Filtra inspecciones desde esta fecha (`YYYY-MM-DD`) |
-| `date_end`   | date   | Filtra inspecciones hasta esta fecha (`YYYY-MM-DD`) |
+Lista paginada de inspecciones. Implementa los filtros y opciones de ordenamiento que consideres útiles.
 
 Cada elemento de la lista debe tener la siguiente estructura:
 
 ```json
 {
   "id": 1,
-  "vehicle_plate": "ABC-123",
   "status": 1,
   "date": "2024-06-01T10:30:00Z",
-  "odometer": 152340.5
+  "odometer": 152340.5,
+  "vehicle_id": 1,
+  "vehicle_plate": "ABC-123"
 }
 ```
 
@@ -199,9 +188,12 @@ En caso de error de validación, responder con el código HTTP apropiado y un me
 ## Lo que se evalúa
 
 - Correcta separación de responsabilidades.
-- Validaciones claras y mensajes de error útiles.
-- Paginación y filtros funcionando.
+- Criterio en la elección de filtros y ordenamiento.
+- Validaciones claras con status codes y mensajes de error apropiados.
+- Paginación funcionando correctamente.
 - Código limpio y legible.
+- Tests (al menos uno es valorado).
+- Uso correcto de los status codes HTTP en todos los endpoints.
 
 ---
 
