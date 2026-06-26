@@ -17,7 +17,7 @@ class ListVehicleInspectionSerializer(serializers.ModelSerializer):
         fields = ['id', 'status', 'date', 'odometer', 'vehicle_id', 'vehicle_plate']
 
 
-### FASE 3 - Creacion de Inspección
+# FASE 3 - Creacion de Inspección
 # Valida y transforma los datos enviados para crear una inspección desde la API.
 class CreateInspectionSerializer(serializers.ModelSerializer):
     vehicle_id = serializers.IntegerField(required=True)
