@@ -66,6 +66,7 @@ class VehicleDetailAPIView(APIView):
         return Response(vehicle, status=status.HTTP_200_OK)
 
 
+### FASE 3 - Finalizar Inspección
 class FinalizeInspectionAPIView(APIView):
     # Finaliza una inspección existente cambiando su estado a finalizada.
     def patch(self, request, id):
