@@ -57,7 +57,7 @@ def get_queryset_vehicle(parametros):
 # Se incluyen filtros de inspección por unidad, estado, placa, fechas y odómetro porque son criterios
 # habituales para monitorear el mantenimiento y desempeño de una flota.
 def get_queryset_vehicle_inspection(parametros):  
-    queryset = VehicleInspection.objects.all()   
+    queryset = VehicleInspection.objects.select_related("vehicle")     
     
     # El filtro por vehicle_id permite revisar el historial de inspecciones de una unidad específica.
     if parametros.get('vehicle_id'):
